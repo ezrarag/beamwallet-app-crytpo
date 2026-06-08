@@ -1,0 +1,4 @@
+{
+  "enroll": "https://fcu.beamthinktank.space/passkey/enroll",
+  "authenticate": "https://fcu.beamthinktank.space/passkey/authenticate"
+}

@@ -1,0 +1,15 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "26HZ47X5B4.com.readyaimgo.beamwallet",
+        "paths": ["*"]
+      }
+    ]
+  },
+  "webcredentials": {
+    "apps": ["26HZ47X5B4.com.readyaimgo.beamwallet"]
+  },
+  "appclips": {}
+}

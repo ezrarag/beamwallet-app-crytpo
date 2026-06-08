@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E49B2882FCE21AE0050DA9D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E49B2872FCE21AE0050DA9D /* GoogleService-Info.plist */; };
+		A00100000000000000000001 /* BEAM wallet.swiftpm/AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000001 /* BEAM wallet.swiftpm/AppConfig.swift */; };
+		A00100000000000000000012 /* BEAM wallet.swiftpm/AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000012 /* BEAM wallet.swiftpm/AuthView.swift */; };
+		A00100000000000000000002 /* BEAM wallet.swiftpm/AppStoreRequirements.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000002 /* BEAM wallet.swiftpm/AppStoreRequirements.swift */; };
+		A00100000000000000000003 /* BEAM wallet.swiftpm/BeamAnalyticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000003 /* BEAM wallet.swiftpm/BeamAnalyticsView.swift */; };
+		A00100000000000000000004 /* BEAM wallet.swiftpm/BlockchainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000004 /* BEAM wallet.swiftpm/BlockchainService.swift */; };
+		A00100000000000000000005 /* BEAM wallet.swiftpm/CardWalletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000005 /* BEAM wallet.swiftpm/CardWalletView.swift */; };
+		A00100000000000000000006 /* BEAM wallet.swiftpm/ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000006 /* BEAM wallet.swiftpm/ContentView.swift */; };
+		A00100000000000000000007 /* BEAM wallet.swiftpm/DAOViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000007 /* BEAM wallet.swiftpm/DAOViews.swift */; };
+		A00100000000000000000008 /* BEAM wallet.swiftpm/Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000008 /* BEAM wallet.swiftpm/Models.swift */; };
+		A00100000000000000000009 /* BEAM wallet.swiftpm/MultiChainMarketplaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00200000000000000000009 /* BEAM wallet.swiftpm/MultiChainMarketplaceView.swift */; };
+		A0010000000000000000000A /* BEAM wallet.swiftpm/MyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0020000000000000000000A /* BEAM wallet.swiftpm/MyApp.swift */; };
+		A0010000000000000000000B /* BEAM wallet.swiftpm/SettingsViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0020000000000000000000B /* BEAM wallet.swiftpm/SettingsViews.swift */; };
+		A0010000000000000000000C /* BEAM wallet.swiftpm/SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0020000000000000000000C /* BEAM wallet.swiftpm/SignInView.swift */; };
+		A0010000000000000000000D /* BEAM wallet.swiftpm/WalletManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0020000000000000000000D /* BEAM wallet.swiftpm/WalletManager.swift */; };
+		A0010000000000000000000E /* BEAM wallet.swiftpm/WalletViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0020000000000000000000E /* BEAM wallet.swiftpm/WalletViews.swift */; };
+		A0010000000000000000000F /* BEAM wallet.swiftpm/Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0020000000000000000000F /* BEAM wallet.swiftpm/Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8E49B2872FCE21AE0050DA9D /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A00200000000000000000001 /* BEAM wallet.swiftpm/AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BEAM wallet.swiftpm/AppConfig.swift"; sourceTree = "<group>"; };
+		A00200000000000000000012 /* BEAM wallet.swiftpm/AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BEAM wallet.swiftpm/AuthView.swift"; sourceTree = "<group>"; };
+		A00200000000000000000013 /* BEAM wallet.swiftpm/BEAM_wallet.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "BEAM wallet.swiftpm/BEAM_wallet.entitlements"; sourceTree = "<group>"; };
+		A00200000000000000000002 /* BEAM wallet.swiftpm/AppStoreRequirements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BEAM wallet.swiftpm/AppStoreRequirements.swift"; sourceTree = "<group>"; };
+		A00200000000000000000003 /* BEAM wallet.swiftpm/BeamAnalyticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BEAM wallet.swiftpm/BeamAnalyticsView.swift"; sourceTree = "<group>"; };
+		A00200000000000000000004 /* BEAM wallet.swiftpm/BlockchainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BEAM wallet.swiftpm/BlockchainService.swift"; sourceTree = "<group>"; };
+		A00200000000000000000005 /* BEAM wallet.swiftpm/CardWalletView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BEAM wallet.swiftpm/CardWalletView.swift"; sourceTree = "<group>"; };
+		A00200000000000000000006 /* BEAM wallet.swiftpm/ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BEAM wallet.swiftpm/ContentView.swift"; sourceTree = "<group>"; };
+		A00200000000000000000007 /* BEAM wallet.swiftpm/DAOViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BEAM wallet.swiftpm/DAOViews.swift"; sourceTree = "<group>"; };
+		A00200000000000000000008 /* BEAM wallet.swiftpm/Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BEAM wallet.swiftpm/Models.swift"; sourceTree = "<group>"; };
+		A00200000000000000000009 /* BEAM wallet.swiftpm/MultiChainMarketplaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BEAM wallet.swiftpm/MultiChainMarketplaceView.swift"; sourceTree = "<group>"; };
+		A0020000000000000000000A /* BEAM wallet.swiftpm/MyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BEAM wallet.swiftpm/MyApp.swift"; sourceTree = "<group>"; };
+		A0020000000000000000000B /* BEAM wallet.swiftpm/SettingsViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BEAM wallet.swiftpm/SettingsViews.swift"; sourceTree = "<group>"; };
+		A0020000000000000000000C /* BEAM wallet.swiftpm/SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BEAM wallet.swiftpm/SignInView.swift"; sourceTree = "<group>"; };
+		A0020000000000000000000D /* BEAM wallet.swiftpm/WalletManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BEAM wallet.swiftpm/WalletManager.swift"; sourceTree = "<group>"; };
+		A0020000000000000000000E /* BEAM wallet.swiftpm/WalletViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BEAM wallet.swiftpm/WalletViews.swift"; sourceTree = "<group>"; };
+		A0020000000000000000000F /* BEAM wallet.swiftpm/Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "BEAM wallet.swiftpm/Assets.xcassets"; sourceTree = "<group>"; };
+		A00200000000000000000010 /* BEAM Wallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BEAM Wallet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00200000000000000000011 /* BEAM wallet.swiftpm/Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BEAM wallet.swiftpm/Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A00300000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A00400000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				A00400000000000000000002 /* BEAM Wallet */,
+				A00400000000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A00400000000000000000002 /* BEAM Wallet */ = {
+			isa = PBXGroup;
+			children = (
+				A0020000000000000000000A /* BEAM wallet.swiftpm/MyApp.swift */,
+				A00200000000000000000006 /* BEAM wallet.swiftpm/ContentView.swift */,
+				A00200000000000000000012 /* BEAM wallet.swiftpm/AuthView.swift */,
+				A0020000000000000000000C /* BEAM wallet.swiftpm/SignInView.swift */,
+				A0020000000000000000000D /* BEAM wallet.swiftpm/WalletManager.swift */,
+				A00200000000000000000008 /* BEAM wallet.swiftpm/Models.swift */,
+				A00200000000000000000001 /* BEAM wallet.swiftpm/AppConfig.swift */,
+				A00200000000000000000004 /* BEAM wallet.swiftpm/BlockchainService.swift */,
+				A0020000000000000000000E /* BEAM wallet.swiftpm/WalletViews.swift */,
+				A00200000000000000000005 /* BEAM wallet.swiftpm/CardWalletView.swift */,
+				A00200000000000000000003 /* BEAM wallet.swiftpm/BeamAnalyticsView.swift */,
+				A00200000000000000000009 /* BEAM wallet.swiftpm/MultiChainMarketplaceView.swift */,
+				A00200000000000000000007 /* BEAM wallet.swiftpm/DAOViews.swift */,
+				A0020000000000000000000B /* BEAM wallet.swiftpm/SettingsViews.swift */,
+				A00200000000000000000002 /* BEAM wallet.swiftpm/AppStoreRequirements.swift */,
+				A00200000000000000000013 /* BEAM wallet.swiftpm/BEAM_wallet.entitlements */,
+				A00200000000000000000011 /* BEAM wallet.swiftpm/Info.plist */,
+				A0020000000000000000000F /* BEAM wallet.swiftpm/Assets.xcassets */,
+				8E49B2872FCE21AE0050DA9D /* GoogleService-Info.plist */,
+			);
+			name = "BEAM Wallet";
+			sourceTree = "<group>";
+		};
+		A00400000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A00200000000000000000010 /* BEAM Wallet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A00500000000000000000001 /* BEAM Wallet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00900000000000000000002 /* Build configuration list for PBXNativeTarget "BEAM Wallet" */;
+			buildPhases = (
+				A00600000000000000000001 /* Sources */,
+				A00300000000000000000001 /* Frameworks */,
+				A00700000000000000000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BEAM Wallet";
+			productName = "BEAM Wallet";
+			productReference = A00200000000000000000010 /* BEAM Wallet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A00800000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					A00500000000000000000001 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+				};
+			};
+			buildConfigurationList = A00900000000000000000001 /* Build configuration list for PBXProject "BEAM Wallet" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A00400000000000000000001;
+			productRefGroup = A00400000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A00500000000000000000001 /* BEAM Wallet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A00700000000000000000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0010000000000000000000F /* BEAM wallet.swiftpm/Assets.xcassets in Resources */,
+				8E49B2882FCE21AE0050DA9D /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A00600000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0010000000000000000000A /* BEAM wallet.swiftpm/MyApp.swift in Sources */,
+				A00100000000000000000006 /* BEAM wallet.swiftpm/ContentView.swift in Sources */,
+				A00100000000000000000012 /* BEAM wallet.swiftpm/AuthView.swift in Sources */,
+				A0010000000000000000000C /* BEAM wallet.swiftpm/SignInView.swift in Sources */,
+				A0010000000000000000000D /* BEAM wallet.swiftpm/WalletManager.swift in Sources */,
+				A00100000000000000000008 /* BEAM wallet.swiftpm/Models.swift in Sources */,
+				A00100000000000000000001 /* BEAM wallet.swiftpm/AppConfig.swift in Sources */,
+				A00100000000000000000004 /* BEAM wallet.swiftpm/BlockchainService.swift in Sources */,
+				A0010000000000000000000E /* BEAM wallet.swiftpm/WalletViews.swift in Sources */,
+				A00100000000000000000005 /* BEAM wallet.swiftpm/CardWalletView.swift in Sources */,
+				A00100000000000000000003 /* BEAM wallet.swiftpm/BeamAnalyticsView.swift in Sources */,
+				A00100000000000000000009 /* BEAM wallet.swiftpm/MultiChainMarketplaceView.swift in Sources */,
+				A00100000000000000000007 /* BEAM wallet.swiftpm/DAOViews.swift in Sources */,
+				A0010000000000000000000B /* BEAM wallet.swiftpm/SettingsViews.swift in Sources */,
+				A00100000000000000000002 /* BEAM wallet.swiftpm/AppStoreRequirements.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A00A00000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A00A00000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A00A00000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "BEAM wallet.swiftpm/BEAM_wallet.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 26HZ47X5B4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				GOOGLE_OAUTH_CLIENT_ID = "your-ios-client-id.apps.googleusercontent.com";
+				GOOGLE_REDIRECT_SCHEME = "com.googleusercontent.apps.your-ios-client-id-prefix";
+				INFOPLIST_FILE = "BEAM wallet.swiftpm/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.readyaimgo.beamwallet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A00A00000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "BEAM wallet.swiftpm/BEAM_wallet.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 26HZ47X5B4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				GOOGLE_OAUTH_CLIENT_ID = "your-ios-client-id.apps.googleusercontent.com";
+				GOOGLE_REDIRECT_SCHEME = "com.googleusercontent.apps.your-ios-client-id-prefix";
+				INFOPLIST_FILE = "BEAM wallet.swiftpm/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.readyaimgo.beamwallet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A00900000000000000000001 /* Build configuration list for PBXProject "BEAM Wallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00A00000000000000000001 /* Debug */,
+				A00A00000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00900000000000000000002 /* Build configuration list for PBXNativeTarget "BEAM Wallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00A00000000000000000003 /* Debug */,
+				A00A00000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A00800000000000000000001 /* Project object */;
+}
